@@ -15,7 +15,7 @@
 
         <form on:submit|preventDefault={getAge}>    
             <label for="location">Name:</label>
-            <input id="location" bind:value={age} type="text" />
+            <input id="location" bind:value={name} type="text" />
             <button type="submit">Check</button>
         </form>
         <p>Ages: {age}</p>
