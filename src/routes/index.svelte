@@ -11,4 +11,11 @@
         });
     }
         </script>
+        <h1>Guess Your Age 🤔</h1>
+
+        <form on:submit|preventDefault={getAge}>    
+            <label for="location">Name:</label>
+            <input id="location" bind:value={age} type="text" />
+            <button type="submit">Check</button>
+        </form>
         <p>Ages: {age}</p>
