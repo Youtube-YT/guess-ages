@@ -2,7 +2,7 @@
     let age = "";
     let name = "";
     async function getAge() {
-      fetch('https://api.agify.io/?name=' + age)
+      fetch('https://api.agify.io/?name=' + name)
         .then((response) => response.json())
         .then((data) => {
           //Able to change whatever name you like Example: weatherTemparature = data.temperature the name of data should not be changed.
