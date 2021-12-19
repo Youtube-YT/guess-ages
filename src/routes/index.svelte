@@ -6,8 +6,8 @@
         .then((response) => response.json())
         .then((data) => {
           //Able to change whatever name you like Example: weatherTemparature = data.temperature the name of data should not be changed.
-           age = data.age; // Path for temperature
-          name = data.name; // Path for description
+          name = data.name; // Path for name
+          age = data.age; // Path for age
         });
     }
         </script>
